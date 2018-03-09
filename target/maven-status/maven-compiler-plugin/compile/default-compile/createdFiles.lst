@@ -1,0 +1,9 @@
+com/hoover/backend/service/HooverService.class
+com/hoover/backend/Application.class
+com/hoover/backend/util/JsonOperations.class
+com/hoover/backend/request/RequestWrapper.class
+com/hoover/backend/model/Room.class
+com/hoover/backend/model/Hoover.class
+com/hoover/backend/controller/HooverController.class
+com/hoover/backend/model/CoOrds.class
+com/hoover/backend/service/HooverServiceImpl.class
