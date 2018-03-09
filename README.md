@@ -1,8 +1,14 @@
-This is a Spring boot application using Maven as the build tool.
-The project can be built with the command 'mvn clean install compile package'
-The class 'Application' can be run after that to bring up the hoover application.
-A call can be made to the endpoint to call the service with JSON payload as part of request.
+## This is a Spring boot application using Maven as the build tool.
+## How to build : 
+* The project can be built with the command 'mvn clean install compile package'
+## Deploying the application : 
+* The class 'Application' can be run after that to bring up the hoover application.
+* A call can be made to the endpoint to call the service with JSON payload as part of request.
 
+## Tests
+* There are unit tests for HooverController class and HooverServiceImpl class.
+
+## Problem Statement
 This is a service that navigates a imaginary robotic hoover (much like a Roomba) through an equally imaginary room based on:
 
 room dimensions as X and Y coordinates, identifying the top right corner of the room rectangle. This room is divided up in a grid based on these dimensions; a room that has dimensions X: 5 and Y: 5 has 5 columns and 5 rows, so 25 possible hoover positions. The bottom left corner is the point of origin for our coordinate system, so as the room contains all coordinates its bottom left corner is defined by X: 0 and Y: 0.
